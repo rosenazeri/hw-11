@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane prefHeight="300.0" prefWidth="250.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <HBox spacing="8.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField prefHeight="52.0" prefWidth="177.0" />
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="50.0" prefWidth="47.0" text="AC" textAlignment="JUSTIFY" />
+         </children>
+         <padding>
+            <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+         </padding>
+      </HBox>
+   </top>
+   <center>
+      <GridPane hgap="4.0" prefHeight="267.0" prefWidth="234.0" vgap="4.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="7">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="8" GridPane.columnIndex="1">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="9" GridPane.columnIndex="2">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="/" GridPane.columnIndex="3">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="4" GridPane.rowIndex="1">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="*" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="2" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="3" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="-" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="0" GridPane.rowIndex="3">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="." GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="=" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="+" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="8.0" left="8.0" right="8.0" top="2.0" />
+         </BorderPane.margin>
+         <padding>
+            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+         </padding>
+      </GridPane>
+   </center>
+</BorderPane>
